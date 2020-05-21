@@ -26,6 +26,7 @@ class KNN():
                                                                                                                         # dist = 140개의 거리들과 해당 train_target값 가진 list
     def obtain_majority_vote(self, test, test_target, w=None):                                                          # obtain_K_nearest_neighbor함수를 이용하여 얻은 결과를 사용하여
         opt = 0                                                                                                         # 계산된 output과 실제 output을 출력하여 비교하도록 보여주는 method
+        accuracy = 0                                                                                                    #정확도 계산을 위한 변수
         sum = []
         temp = 0
         if w == 'weighted':                                                                                             # 마지막 w parameter에 'weighted'가 들어오면 opt = 1로 ,else opt = 0
@@ -45,7 +46,10 @@ class KNN():
                     temp = 0
                 print('Test Data Index:', z, '   Computed class:', self.name[sum.index(max(sum))],                      #sum.index(max(sum))을 이용하여, 어떠한 class가 가중치가 가장 큰지 찾아낸다.
                       '     True class:', self.name[test_target[z]])
+                if self.name[sum.index(max(sum))] == self.name[test_target[z]]:                                         #Computed 와 True class가 같을시
+                    accuracy += 1                                                                                       # accuracy 1 증가
                 sum = []
+            print('Accuracy:', int((accuracy/len(test) * 100)), '%')                                                    # 마지막에 accuracy를 persentage로 출력
         else:
             for a in range(len(result)):                                                                                # 10번동안
                 for c in range(self.k):                                                                                 # K개 만큼 class들을 뽑아낸다.
