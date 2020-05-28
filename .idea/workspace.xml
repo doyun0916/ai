@@ -25,7 +25,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.MNIST_B411001강도연">
+  <component name="RunManager" selected="Python.nn_iris_classi_main">
+    <configuration name="5.14 실습 이해 안됨..." type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MNIST" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/5.14 실습 이해 안됨....py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="MNIST_B411001강도연" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -47,7 +68,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MNIST_Handcrafted_B411001강도연" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nn_class_B411001강도연" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +80,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\doyun\PycharmProjects\MNIST!\MNIST\MNIST_Handcrafted_B411001강도연.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_class_B411001강도연.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,19 +89,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MNIST_Handcrafted_case1(28feature) axis = 0" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nn_iris_classi_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\doyun\PycharmProjects\classi\venv\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\doyun\PycharmProjects\MNIST!\MNIST\MNIST_Handcrafted_case1(28feature) axis = 0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nn_iris_classi_main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -89,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MNIST_Handcrafted_case2(32feature)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MNIST" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -101,28 +122,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST_Handcrafted_case2(32feature).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="MNIST_Handcrafted_case3(56feature)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="MNIST" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MNIST_Handcrafted_case3(56feature).py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.nn_iris_classi_main" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.MNIST_B411001강도연" />
-        <item itemvalue="Python.MNIST_Handcrafted_B411001강도연" />
-        <item itemvalue="Python.MNIST_Handcrafted_case2(32feature)" />
-        <item itemvalue="Python.MNIST_Handcrafted_case3(56feature)" />
-        <item itemvalue="Python.MNIST_Handcrafted_case1(28feature) axis = 0" />
+        <item itemvalue="Python.nn_class_B411001강도연" />
+        <item itemvalue="Python.5.14 실습 이해 안됨..." />
       </list>
     </recent_temporary>
   </component>
@@ -155,26 +155,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1587881064229">
+    <state x="491" y="25" key="#Iris_classify_B411001강도연" timestamp="1590313690719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587881064229" />
-    <state width="1500" height="240" key="GridCell.Tab.0.bottom" timestamp="1589392741031">
+    <state x="491" y="25" key="#Iris_classify_B411001강도연/0.0.1536.824@0.0.1536.824" timestamp="1590313690719" />
+    <state x="491" y="25" key="#iris_main_B411001강도연" timestamp="1590313769483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="240" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589392741031" />
-    <state width="1500" height="240" key="GridCell.Tab.0.center" timestamp="1589392741031">
+    <state x="491" y="25" key="#iris_main_B411001강도연/0.0.1536.824@0.0.1536.824" timestamp="1590313769483" />
+    <state x="491" y="25" key="#nn_iris_classi_main" timestamp="1590314110922">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="240" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589392741031" />
-    <state width="1500" height="240" key="GridCell.Tab.0.left" timestamp="1589392741031">
+    <state x="491" y="25" key="#nn_iris_classi_main/0.0.1536.824@0.0.1536.824" timestamp="1590314110922" />
+    <state x="548" y="167" key="FileChooserDialogImpl" timestamp="1590482341298">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="240" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589392741031" />
-    <state width="1500" height="240" key="GridCell.Tab.0.right" timestamp="1589392741031">
+    <state x="548" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590482341298" />
+    <state width="1515" height="249" key="GridCell.Tab.0.bottom" timestamp="1590625483503">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1500" height="240" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589392741031" />
+    <state width="1515" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590625483503" />
+    <state width="1515" height="249" key="GridCell.Tab.0.center" timestamp="1590625483502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590625483502" />
+    <state width="1515" height="249" key="GridCell.Tab.0.left" timestamp="1590625483502">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590625483502" />
+    <state width="1515" height="249" key="GridCell.Tab.0.right" timestamp="1590625483503">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1515" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590625483503" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1587996940233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,9 +203,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587996940233" />
-    <state x="277" y="54" key="SettingsEditor" timestamp="1587877039336">
+    <state x="277" y="54" key="SettingsEditor" timestamp="1590314728793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587877039336" />
+    <state x="277" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590314728793" />
   </component>
 </project>

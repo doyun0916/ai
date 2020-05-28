@@ -1,6 +1,6 @@
 import numpy as np
 from dataset.mnist import load_mnist                      # MNIST data load
-from KNN_Class_B411001 import KNN
+# from KNN_Class_B411001 import KNN
 import sys, os
 sys.path.append(os.pardir)
 (x_train, t_train), (x_test, t_test) = \
@@ -22,4 +22,4 @@ test_target = np.array(testtarget)
 #print()
 #print('Weighted Majority vote')
 #knn_MNIST.obtain_majority_vote(test_set, test_target, 'weighted')       # 각 test 데이터에 대한 결과값 및 실제값 비교 출력
-print(test_set[0])
+# print(test_set[0])
